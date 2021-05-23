@@ -68,10 +68,10 @@ export default () =>{
         <p>If Approval, your policy will attach to your role</p>
         <form onSubmit={submit_policy, policy_approval}>
 
-        <textarea cols="50" rows="5" id="policy" placeholder="enter your rolename"></textarea>
+        <textarea cols="50" rows="5" id="role" placeholder="enter your rolename"></textarea>
         <br></br>
 
-        <textarea cols="50" rows="5" id="role" placeholder="enter your policy"></textarea>
+        <textarea cols="50" rows="5" id="policy" placeholder="enter your policy"></textarea>
         <br></br>
         <input type="submit"></input>
         </form>
