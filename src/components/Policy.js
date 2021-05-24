@@ -60,18 +60,22 @@ export default () =>{
       }).then((response) => response.json()
       ).then(body => {
         console.log(body)
+      }).then(a => {
+        alert("request has been send.")
       })
+
     }
 
     return (
         <div>
         <p>If Approval, your policy will attach to your role</p>
         <form onSubmit={submit_policy, policy_approval}>
-
-        <textarea cols="50" rows="5" id="role" placeholder="enter your rolename"></textarea>
+        <label className="tag">Your Rolename:</label>
+        <input className="attach" id="role" placeholder="enter your rolename"></input>
         <br></br>
-
-        <textarea cols="50" rows="5" id="policy" placeholder="enter your policy"></textarea>
+        <br></br>
+        <label className="tag">Your Policyname:</label>
+        <input className="attach" id="policy" placeholder="enter your policy"></input>
         <br></br>
         <input type="submit"></input>
         </form>

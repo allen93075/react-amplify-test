@@ -61,6 +61,21 @@ button:hover {
 }
 
 
+.attach {
+  border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+
+.tag {
+  color: #164077;
+  font-size: large;
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+}
 
 /* Clear floats */
 .clearfix::after {
