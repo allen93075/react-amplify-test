@@ -5,8 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Switch } from 'react-router-dom';
 
+
+
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter>                                        
     <React.StrictMode>
       <App />
     </React.StrictMode>

@@ -75,7 +75,24 @@ button:hover {
   display: inline-block;
   width: 140px;
   text-align: right;
+  margin: 10px;
 }
+
+.warning{
+  color: #f44336;
+}
+
+
+
+
+.policy{
+  border: 3px solid #cccccc;
+	padding: 5px;
+  display: inline-block;
+  width: 200px;
+  text-align: left;
+}
+
 
 /* Clear floats */
 .clearfix::after {
