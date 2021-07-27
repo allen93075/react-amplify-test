@@ -5,6 +5,7 @@ import Create from "./components/Create"
 import Attach from "./components/Attach"
 import Home from "./components/Home"
 import Check from "./Nav"
+import Requestrole from "./components/Requestrole"
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
@@ -36,10 +37,7 @@ export default class App extends Component {
     if (localStorage.getItem('email') == null) {
       this.handleLogoutChange()
     }
-
-
-
-
+    
   }
 
 
@@ -55,6 +53,7 @@ export default class App extends Component {
               <Route exact path='/Login' render={props => (<Login {...props} logged={this.state.logged} loginchange={this.handleLoginChange} />)} />
               <Route path='/Create' component={Create} />
               <Route path='/Attach' component={Attach} />
+              <Route path='/Requestrole' component={Requestrole}/>
             </div>
           </div>
         </Router>

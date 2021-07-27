@@ -22,6 +22,10 @@ export default class Check extends React.Component {
                 <nav>
                     <h3>QAQ</h3>
                     <ul className='nav-Links'>
+                        <Link style={navStyle} to="/Requestrole">
+                            <li>Request Role for customer</li>
+                        </Link>
+
                         <Link style={navStyle} to="/Create">
                             <li>Create Policy</li>
                         </Link>
